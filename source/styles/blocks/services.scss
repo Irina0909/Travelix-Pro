@@ -1,0 +1,35 @@
+.services {
+  //
+}
+
+.services__container {
+  //
+}
+
+.services__resume {
+  line-height: 26px;
+  color: $secondary-color-text;
+  text-align: center;
+}
+
+.services__title {
+  text-align: center;
+}
+
+.services__subtitle {
+  max-width: 865px;
+  text-align: center;
+}
+
+.services__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.services__item {
+  //
+}

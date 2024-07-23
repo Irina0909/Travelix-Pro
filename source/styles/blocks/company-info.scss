@@ -1,0 +1,26 @@
+.company-info {
+  //
+}
+
+.company-info__title {
+  color: $secondary-color-text-2;
+}
+
+.company-info__list {
+list-style-type: none;
+padding: 0;
+}
+
+.company-info__item {
+  //
+}
+
+.company-info__link {
+  display: block;
+  color: $secondary-color-text-2;
+  font-family: Segoi UI;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+
+}

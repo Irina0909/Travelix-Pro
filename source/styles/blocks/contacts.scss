@@ -1,0 +1,35 @@
+.contacts {
+  //
+}
+
+.contacts__title {
+  color: $secondary-color-text-2;
+}
+
+.contacts__list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contacts__item {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.contacts__email {
+  display: block;
+  text-decoration: none;
+  color: $secondary-color-text-2;
+}
+
+.contacts__phone {
+  display: block;
+  text-decoration: none;
+  color: $secondary-color-text-2;
+}
+
+.contacts__map {
+  display: block;
+  text-decoration: none;
+  color: $secondary-color-text-2;
+}

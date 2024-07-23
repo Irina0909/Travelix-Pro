@@ -1,0 +1,48 @@
+.footer {
+  background-color: $accent-bg;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer__container {
+  //
+}
+
+.footer__logo {
+  //
+}
+
+.footer__logo-img {
+  //
+}
+
+.footer__text {
+  font-size: 16px;
+  line-height: 26px;
+  color: $secondary-color-text-2;
+  max-width: 297px;
+}
+
+.footer__company-info {
+  //
+}
+
+.footer__community-info {
+  //
+}
+
+.footer__contacts {
+  //
+}
+
+.footer__social {
+  //
+}
+
+.footer__copyright {
+  font-size: 16px;
+  line-height: 26px;
+  color: $secondary-color-text-2;
+  text-align: center;
+}

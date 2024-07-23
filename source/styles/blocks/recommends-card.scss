@@ -1,0 +1,39 @@
+.recommends-card {
+  //
+}
+
+.recommends-card__link-image {
+  display: block;
+}
+
+.recommends-card__title {
+  text-decoration: none;
+}
+
+.recommends-card__price {
+  font-family: $secondary-font;
+  font-size: 20px;
+  line-height: 30px;
+  color: $accent-color-text;
+}
+
+
+.recommends-card__text {
+  line-height: 26px;
+  text-align: left;
+  max-width: 270px;
+}
+
+.recommends-card__stars {
+  //
+}
+
+.recommends-card__review {
+  font-size: 14px;
+  line-height: 24px;
+  color: $secondary-color-text-3;
+}
+
+.recommends-card__button {
+  text-decoration: none;
+}

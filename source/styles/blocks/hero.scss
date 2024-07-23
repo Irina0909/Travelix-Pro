@@ -1,0 +1,50 @@
+.hero {
+  //
+}
+
+.hero__container {
+  //
+}
+
+.hero__content {
+  //
+}
+
+.hero__title {
+  font-family: $secondary-font;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 80px;
+  color: $primary-color-text;
+  margin: 0;
+  padding: 0;
+
+  & span  {
+    color: $accent-color-text;
+  }
+}
+
+.hero__text {
+font-family: $secondary-font;
+font-size: 26px;
+font-weight: 700;
+line-height: 38px;
+color: $primary-color-text;
+}
+
+.hero__subtitle {
+  //
+}
+
+.hero__picture {
+  //
+}
+
+.hero__image {
+  //
+}
+
+.hero__search {
+  //
+}
+
