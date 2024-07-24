@@ -10,6 +10,7 @@
   line-height: 26px;
   color: $secondary-color-text;
 
+
  }
  .booking__title {
   //
@@ -20,14 +21,14 @@
  }
 
  .booking__list {
+  list-style-type: none;
+ }
+
+ .booking__item {
   //
  }
 
  .booking__wrapper {
-  //
- }
-
- .booking__item {
   //
  }
 
@@ -43,21 +44,27 @@
   //
  }
 
- .booking__item__title {
+ .booking__item-title {
   //
  }
 
- .booking__item-text {
-  font-size: 16px;
-  line-height: 26px;
-  color: $secondary-color-text;
+ .booking__item-subtitle {
+  //
  }
 
  .booking__image {
   //
  }
 
+ .booking__examples {
+  //
+ }
+
  .booking__example {
+  //
+ }
+
+ .booking__example-image {
   //
  }
 
@@ -69,7 +76,7 @@
   font-weight: 700;
  }
 
- .booking__example-text {
+ .booking__example-destination {
   font-size: 8px;
   line-height: 10px;
   color: #8c8c8c;
@@ -79,7 +86,7 @@
   //
  }
 
- .booking__example-trip {
+ .booking__example-offer {
   //
  }
 
