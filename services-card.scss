@@ -1,0 +1,35 @@
+.services-card {
+  border-radius: 24px;
+  background-color: $secondary-bg-2;
+  padding: 0 19px;
+}
+
+.services-card__title {
+  text-decoration: none;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  margin: 0 0 20px;
+}
+
+.services-card__text {
+  max-width: 232px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+
+}
+
+.services-card__button {
+  text-decoration: none;
+  margin-top: auto;
+}
+
+.services-card__button--current {
+  //
+ }
+
+.services-card--current {
+  //
+}

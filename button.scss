@@ -1,0 +1,38 @@
+.button {
+  display: inline-block;
+  background-color: $accent-bg;
+  font-family: $secondary-font;
+  color: $secondary-color-text-2;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 12px 56px;
+  cursor: pointer;
+  min-height: 50px;
+  border-radius: 10px;
+
+  & :hover {
+    background-color: #9D5D29;
+  }
+
+  & :active {
+    background-color: #5B2E09;
+  }
+
+  & :disabled {
+    opacity: 0.2;
+    pointer-events: none;
+  }
+
+}
+
+.button--primary {
+  padding: 12px 16px;
+}
+
+.button--secondary {
+  background-color: transparent;
+  color: $accent-color-text;
+  border: $secondary-border;
+  border-radius: 10px;
+
+}

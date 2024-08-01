@@ -1,0 +1,53 @@
+.slider-card {
+  //
+}
+
+.slider-card__link-image {
+  display: block;
+  text-decoration: none;
+}
+
+.slider-card__img {
+  //
+}
+
+.slider-card__title {
+  text-decoration: none;
+  display: block;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.slider-card__price {
+  font-family: $secondary-font;
+  font-size: 20px;
+  line-height: 30px;
+  color: $accent-color-text;
+
+
+  & span {
+    color: $accent-color-text;
+  }
+}
+
+.slider-card__text {
+  line-height: 26px;
+  text-align: left;
+  max-width: 270px;
+}
+
+.slider-card__stars {
+  //
+}
+
+.slider-card__review {
+  font-size: 14px;
+  line-height: 24px;
+  color: $secondary-color-text-3;
+}
+
+.slider-card__button {
+  text-decoration: none;
+}

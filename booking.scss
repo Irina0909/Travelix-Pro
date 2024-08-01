@@ -1,0 +1,132 @@
+.booking {
+  //
+}
+
+.booking__container {
+  //
+}
+
+.booking__resume {
+  line-height: 26px;
+  color: $secondary-color-text;
+  margin: 0 0 14px;
+}
+
+.booking__title {
+  margin: 0 0 14px;
+}
+
+.booking__subtitle {
+  max-width: 545px;
+  margin: 0 0 34px;
+}
+
+.booking__list {
+  list-style-type: none;
+}
+
+.booking__item {
+  //
+}
+
+.booking__wrapper {
+  //
+}
+
+.booking__item--choosing {
+  //
+}
+
+.booking__item--paying {
+  //
+}
+
+.booking__item--traveling {
+  //
+}
+
+.booking__item-title {
+  //
+}
+
+.booking__item-subtitle {
+  max-width: 470px;
+}
+
+.booking__image {
+  //
+}
+
+.booking__examples {
+  //
+}
+
+.booking__example {
+  //
+}
+
+.booking__example-image {
+  //
+}
+
+.booking__example-person-name {
+  font-family: $secondary-font;
+  font-size: 10px;
+  line-height: 12px;
+  color: #474a4d;
+  font-weight: 700;
+}
+
+.booking__example-destination {
+  font-size: 8px;
+  line-height: 10px;
+  color: #8c8c8c;
+}
+
+.booking__example-stars {
+  //
+}
+
+.booking__example-offer {
+  //
+}
+
+.booking__example-trip-location {
+  font-family: $secondary-font;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.booking__example-trip-price {
+  font-family: $secondary-font;
+  font-size: 16px;
+  line-height: 26px;
+  color: $accent-color-text;
+  font-weight: 700;
+}
+
+.booking__example-trip-text {
+  font-size: 8px;
+  line-height: 18px;
+  color: $secondary-color-text;
+}
+
+.booking__example-trip-stars {
+  color: $accent-color;
+}
+
+.booking__example-review {
+  font-size: 14px;
+  line-height: 24px;
+  color: $secondary-color-text-3;
+}
+
+.booking__example-link {
+  display: block;
+  font-family: $secondary-font;
+  font-size: 14px;
+  line-height: 24px;
+  color: $accent-color-text;
+  text-decoration: none;
+}

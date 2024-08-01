@@ -1,0 +1,83 @@
+.footer {
+  background-color: $accent-bg;
+  padding: 55px 0 25px;
+
+}
+.footer__container {
+  //
+}
+
+.footer__subscribe {
+  //
+}
+
+.footer__info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+
+.footer__content {
+  //
+}
+
+.footer__logo {
+  & :hover {
+    opacity: 0.7;
+  }
+
+  & :active {
+    opacity: 0.5;
+  }
+}
+
+.footer__logo-image {
+  margin: 0 0 17px;
+  width: 207px;
+  height: 52px;
+  display: block;
+}
+
+.footer__text {
+  font-size: 16px;
+  line-height: 26px;
+  color: $secondary-color-text-2;
+  max-width: 297px;
+  margin: 0;
+}
+
+
+.footer__company-info {
+  //
+}
+
+.footer__community-info {
+  //
+}
+
+.footer__contacts {
+  //
+}
+
+.footer__copyright {
+  font-size: 16px;
+  line-height: 26px;
+  color: $secondary-color-text-2;
+  text-align: center;
+  border-top: 1px solid #ffffff;
+  margin: 0;
+  padding: 17px 0 25px;
+  box-shadow: 0 0 0 $accent-bg;
+
+
+  /*content: "";
+  position: absolute;
+  width: 100vw;
+  height: 2px;
+  background-color: $accent-border-color;
+  top: 9px;
+  right: 0;
+  z-index: -1;
+  box-shadow: 100vw 0 0 0 $accent-border-color;*/
+}
