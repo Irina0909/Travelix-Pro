@@ -15,7 +15,7 @@
 <header class="header">
   <div class="header__container container">
     <nav class="header__navigation navigation">
-    <a class=" navigation__logo site-logo" href="">
+    <a class="navigation__logo site-logo" href="#">
       <picture>
        <img class=" site-logo__img" src="images/logo.svg" width="207" height="52" alt="Logo of travel website Travelix Pro">
       </picture>
@@ -31,7 +31,7 @@
         <a class="navigation__link" href="#">Packege</a>
       </li>
       <li class="navigation__item">
-        <a class="navigation__link" href="#">About us</a>
+        <a class="navigation__link" href="#">About Us</a>
       </li>
       <li class="navigation__item">
         <a class="navigation__link" href="#">Sign In</a>
@@ -45,37 +45,45 @@
 <section class="main__hero hero">
   <div class="hero__container container">
     <div class=" hero__content">
-      <h1 class="visually-hidden">Travelix Pro</h1>
+     <h1 class="visually-hidden">Travelix Pro</h1>
       <p class="hero__title">Happiness Is <span>Travelling</span></p>
       <p class=" hero__text">No matter where in the world you want to go, we can help get you there</p>
       <p class="hero__subtitle subtitle">Travel Agency Threats and Opportunities. The Perspective of Successful OwnersJoin the leader in small-ship cruising on the Great Lakes, and enjoy fabulous inclusions such as a pre-voyage hotel.</p>
-      <div class="hero__picture">
-        <img class="hero__image" src="" width="590" height="655" alt="A boat on a small island with a palm tree in the middle og the ocean, which contains the traveler s things: passport, cocktail, camera,suitcase">
-      </div>
-      <form class="hero__search search-form" action="" method="GET" id="hero__search" role="search">
-        <div class="search-form__fieldgroup">
-         <label class="search-form__label" for="search-form__input">Location</label>
-        <input class="search-form__input" type="search" id="search-text" name="search" placeholder="Where are you going?" required>
-        </div>
-        <div class="search-form__fieldgroup">
-         <label class="search-form__label" for="search-form__input">Check In</label>
-        <input class="search-form__input" type="text" id="check-in-date" name="check-in-date" placeholder="Add dates" required>
-        </div>
-        <div class="search-form__fieldgroup">
-         <label class="search-form__label" for="search-form__input">Check Out</label>
-        <input class="search-form__input" type="text" id="check-out-date" name="check-out-date" placeholder="Add dates" required>
-        </div>
-        <button class="search-form__button button" type="submit">Search</button>
-      </form>
     </div>
-  </div>
+         <form class="hero__search search-form" action="" method="GET" id="hero__search" role="search">
+        <div class="search-form__fieldgroup">
+         <label class="search-form__label">Location
+         <input class="search-form__input" type="search" name="search" placeholder="Where are you going?" required>
+         </label>
+        </div>
+        <div class="search-form__fieldgroup">
+         <label class="search-form__label">Check In
+         <input class="search-form__input" type="text" name="check-in-date" placeholder="Add dates" required>
+         </label>
+        </div>
+        <div class="search-form__fieldgroup">
+         <label class="search-form__label">Check Out
+         <input class="search-form__input" type="text" name="check-out-date" placeholder="Add dates" required>
+         </label>
+        </div>
+        <button class="search-form__button button button--primary" type="submit">Search</button>
+      </form>
+      <div class="hero__picture">
+        <picture>
+        <img class="hero__image" src="" width="590" height="655" alt="A boat on a small island with a palm tree in the middle og the ocean, which contains the traveler s things: passport, cocktail, camera,suitcase">
+        </picture>
+      </div>
+    </div>
 </section>
 <section class="main__benefits benefits">
   <div class="benefits__container container">
     <div class="benefits__picture">
-    <img class="benefits__image" src="" width="735" height="637" alt="A car with travelers against the backdrop of mountains">
+      <picture>
+     <img class="benefits__image" src="" width="735" height="637" alt="A car with travelers against the backdrop of mountains">
+      </picture>
     </div>
-    <h2 class="benefits__title title-h1">Why Choose Us?</h2>
+    <div class="benefits__content">
+     <h2 class="benefits__title title-h1">Why Choose Us?</h2>
     <p class="benefits__subtitle subtitle">There was consensus, not surprisingly, that quality traditional travel agencies provide value for money. However, this was accompanied by a high level of concern that many consumers</p>
     <ul class="benefits__list">
       <div class="benefits__item-wrapper">
@@ -103,6 +111,7 @@
        </li>
        </div>
     </ul>
+    </div>
   </div>
 </section>
 <section class="main__services services">
@@ -114,22 +123,22 @@
       <li class="services__item services-card">
         <a class="services-card__title title" href="#">Book Hotel</a>
         <p class="services-card__text">In-depth interviews with 19 owners of exceptionally successful US-based conventional travel agencies </p>
-        <a class="services-card__button button">Explore More</a>
+        <a class="services-card__button button button--secondary">Explore More</a>
       </li>
       <li class="services__item services-card">
         <a class="services-card__title title" href="#">Book Taxi</a>
         <p class="services-card__text">In-depth interviews with 19 owners of exceptionally successful US-based conventional travel agencies </p>
-        <a class="services-card__button button" href="#">Explore More</a>
+        <a class="services-card__button button button--secondary" href="#">Explore More</a>
       </li>
       <li class="services__item services-card">
         <a class="services-card__title title" href="#">Book Plane</a>
         <p class="services-card__text">In-depth interviews with 19 owners of exceptionally successful US-based conventional travel agencies </p>
-        <a class="services-card__button button" href="#">Explore More</a>
+        <a class="services-card__button button button--secondary" href="#">Explore More</a>
       </li>
       <li class="services__item services-card">
         <a class="services-card__title title" href="#">Global Tour</a>
         <p class="services-card__text">In-depth interviews with 19 owners of exceptionally successful US-based conventional travel agencies </p>
-        <a class="services-card__button button" href="#">Explore More</a>
+        <a class="services-card__button button button--secondary" href="#">Explore More</a>
       </li>
     </ul>
   </div>
@@ -188,7 +197,7 @@
   <button class="slider__toggle slider__toggle--next slider__toggle--current" type="button" aria-label="View next slide"></button>
    <div class="slider__dots slider-dots">
     <button class="slider-dots__dot" type="button">1</button>
- <button class="slider-dots-dot" type="button">2</button>
+ <button class="slider-dots__dot" type="button">2</button>
  <button class="slider-dots__dot slider-dots__dot--current" type="button">3</button>
 <button class="slider-dots__dot" type="button">4</button>
 <button class="slider-dots__dot" type="button">5</button>
@@ -303,7 +312,8 @@
      <button class="subscribe-form__button button" type="submit">Subscribe Now</button>
      </form>
     </section>
-    <div class="footer__content">
+    <div class="footer__info">
+   <div class="footer__content">
       <a class="footer__logo" href="#">
         <picture>
         <img class="footer__logo-image" src="images/footer-logo.svg" width="207" height="52" alt="Logo of travel website Travelix Pro">
@@ -380,8 +390,11 @@
           </li>
       </div>
     </div>
+    </div>
     <p class="footer__copyright">Copy right 2021, All Rights Reserved By Travelix Pro </p>
   </div>
 </section>
+<script src="scripts/index.js"></script>
 </body>
+</html>
 
